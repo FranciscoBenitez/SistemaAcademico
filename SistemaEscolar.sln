@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{873A511A-9E33-4E81-B0A4-FCFD9F1EDCA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5330ACD2-C4AE-4FAB-8A16-A3A681C5041C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SistemaEscolar", "src\SistemaEscolar\SistemaEscolar.xproj", "{63B5D8EC-A3CD-489A-893E-57A78ACA873E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63B5D8EC-A3CD-489A-893E-57A78ACA873E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B5D8EC-A3CD-489A-893E-57A78ACA873E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B5D8EC-A3CD-489A-893E-57A78ACA873E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B5D8EC-A3CD-489A-893E-57A78ACA873E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63B5D8EC-A3CD-489A-893E-57A78ACA873E} = {873A511A-9E33-4E81-B0A4-FCFD9F1EDCA8}
+	EndGlobalSection
+EndGlobal
